@@ -7,13 +7,13 @@ sidebar: true
 comments: false
 sharing: true
 footer: true
-logo: telsamotors.png
+logo: teslamotors.png
 ha_category: Hub
 ha_release: 0.45
 ---
 
 
-The `teslamotors` platform offers integrates with the [Telsa Motors](http://www.volvocars.com/intl/own/connectivity/volvo-on-call) cloud service and offers presence detection as well as sensors such as odometer and battery level.
+The `teslamotors` platform offers integrates with the [Telsa Motors](http://www.tesla.com) cloud service and offers presence detection as well as lock, switches and sensors such as odometer and battery level.
 
 To use Tesla Motors in your installation, add the following to your `configuration.yaml` file:
 
@@ -29,14 +29,14 @@ A more advanced example for setting the vehicle name and selecting what resource
 ```yaml
 # Example configuration.yaml entry
 teslamotors:
-  username: username
-  password: password
+  username: !secret tesla_username
+  password: !secret tesla_password
   name:
-    abc123: 'Batmobile'
+    elektra: 'Elektra'
   resources:
-    - doors
-    - lock
-    - heater
+    - odometer
+    - inside_temperature
+    - speed
 ```
 
 Configuration variables:
