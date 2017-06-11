@@ -24,7 +24,7 @@ teslamotors:
   password: password
 ```
 
-A more advanced example for setting the vehicle name and selecting what resources to display:
+A more advanced example for setting the using secure file for username and password, vehicle name and selecting what resources to display:
 
 ```yaml
 # Example configuration.yaml entry
