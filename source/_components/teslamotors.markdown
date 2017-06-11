@@ -41,8 +41,8 @@ teslamotors:
 
 Configuration variables:
 
-- **username** (*Required*): The username associated with your Volvo On Call account.
-- **password** (*Required*): The password for your given Volvo On Call account.
+- **username** (*Required*): The username associated with your Tesla account.
+- **password** (*Required*): The password for your given Tesla account.
 - **name** (*Optional*): Make it possible to provide a name for the vehicles.
 - **resources** (*Optional*): A list of resources to display (defaults to all available).
 
